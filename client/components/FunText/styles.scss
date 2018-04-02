@@ -1,0 +1,36 @@
+:global {
+  .hvr-grow-rotate {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+  .hvr-grow-rotate:hover,
+  .hvr-grow-rotate:focus,
+  .hvr-grow-rotate:active {
+    transform: scale(1.5) rotate(4deg);
+  }
+}
+
+.color {
+  &0 {
+    color: var(--venus);
+  }
+
+  &1 {
+    color: var(--earth);
+  }
+
+  &2 {
+    color: var(--mars);
+  }
+
+  &3 {
+    color: var(--jupiter);
+  }
+
+  &:hover {
+  }
+}

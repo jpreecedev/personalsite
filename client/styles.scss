@@ -1,0 +1,53 @@
+:root {
+  font-size: 16px;
+
+  --mercury: rgb(83, 83, 83);
+  --venus: rgb(11, 60, 93);
+  --earth: rgb(50, 140, 193);
+  --mars: rgb(217, 179, 16);
+  --jupiter: rgb(29, 39, 49);
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 24px;
+  color: var(--mercury);
+}
+
+h1,
+a {
+  text-decoration: none;
+  color: var(--mercury);
+}
+
+h1 {
+  margin: 0 0 16px 0;
+  font-size: 5rem;
+}
+
+a {
+  transition: border 200ms ease;
+
+  &:hover {
+    border-bottom: 4px solid;
+  }
+}
+
+:global {
+  .pointer {
+    cursor: default;
+  }
+
+  .fade-enter,
+  .fade-exit {
+    opacity: 0;
+    z-index: 1;
+  }
+
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+  }
+}
