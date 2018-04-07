@@ -3,6 +3,7 @@ const webpack = require('webpack')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: {
@@ -39,7 +40,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.js', '.scss']
+    extensions: ['.js', '.json', '.scss']
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
@@ -55,6 +56,7 @@ module.exports = {
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
       minChunks: module => /node_modules/.test(module.resource)
-    })
+    }),
+    new CopyWebpackPlugin([{ from: 'client/images', to: 'images' }])
   ]
 }

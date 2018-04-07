@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+}
+
+.item {
+  color: #fff;
+  text-align: center;
+  flex-basis: 0;
+  flex-grow: 1;
+  padding: 0 16px;
+
+  &.color {
+    &0 {
+      background-color: var(--venus);
+    }
+
+    &1 {
+      background-color: var(--earth);
+    }
+
+    &2 {
+      background-color: var(--mars);
+    }
+
+    &3 {
+      background-color: var(--jupiter);
+    }
+  }
+}
+
+.message {
+  display: block;
+}
+
+.picture {
+  width: 60px;
+  border-radius: 30px;
+  margin-top: 20px;
+}

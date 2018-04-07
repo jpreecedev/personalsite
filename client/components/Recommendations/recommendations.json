@@ -1,0 +1,44 @@
+[
+  {
+    "name": "David Lawson",
+    "position": "Managing Director AO UK Retail @ ao.com",
+    "message": [
+      "Jon contracted with ao.com for around 6 months and delivered a fantastic standard of work. More importantly he was a delight to have in the team and always went above and beyond what he contractually needed to do. A great culture fit. Would highly recommend as a front end contractor"
+    ],
+    "image": "person-13.jpg"
+  },
+  {
+    "name": "Gary Bennion",
+    "position": "Product Director @ Cloud Technology Solutions",
+    "message": [
+      "Jon is one of the most talented and dedicated contractors that I have had the pleasure to work with. Not afraid to get stuck and quickly integrating with the team he proved to be a massive asset and played a big part in the deliver of some big projects at AO."
+    ],
+    "image": "person-12.jpg"
+  },
+  {
+    "name": "Michael Chadwick",
+    "position": "Front end Development Manager @ ao.com",
+    "message": [
+      "Jon is just about to finish a several month stint at AO.com within my front end team and I'll definitely be sorry to see him go.",
+      "He's the consummate professional - highly skilled across both the front and back end, dedicated, personable, passionate and wholly dependable. His extensive knowledge and enthusiasm for front end technologies was evident from the moment he came on board. There's literally no Achilles' heel with Jon - SASS / CSS, JavaScript (as well as libraries and frameworks, particularly Angular 1/2), front end tooling, web performance, intimate browser / device knowledge, UX / design instincts... he would happily get stuck into projects of all size and shapes with a calm, unflappable and focused demeanour and always produce top quality work. It's rare to see a contractor hit the ground running with as little friction as Jon did and that's testament to his skill and experience. We put our trust in him and he always delivered. ",
+      "And on top of all that he's a thoroughly nice guy - a pleasure to work with. We wish him all the best in his future endeavours and hope our paths will cross again."
+    ],
+    "image": "person-14.jpg"
+  },
+  {
+    "name": "Gary Young",
+    "position": "Head of Development @ TyresOnTheDrive.com",
+    "message": [
+      "Jon Preece is a dilligent and hard working developer who took very little time to fit in with the culture that we have here at Tyres on the Drive. Jon's knowledge and expertise in the field of web development, in back end and front end technologies, is second to none and he is undoubtedly a safe pair of hands who can contribute in some way to all manner of web projects. Jon spends a lot of time reading up on the latest technologies in his own time and it really shows in his work. I would highly recommend Jon's services and given the choice would have liked to keep hold of him for longer to help us achieve our goals."
+    ],
+    "image": "person-10.jpg"
+  },
+  {
+    "name": "Mark Burgess",
+    "position": "Development Director @ Civica",
+    "message": [
+      "Jon is a highly motivated developer that is extremely enthusiastic about writing high quality code and staying at the cutting edge of new technologies. His knowledge of .NET and code in general is hugely impressive given his relatively young age and is testament to the effort he applies to both his work and self learning. His drive and determination to better both himself and his fellow colleagues is first class and I would recommend him to anyone."
+    ],
+    "image": "person-6.jpg"
+  }
+]
